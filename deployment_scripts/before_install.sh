@@ -1,5 +1,5 @@
 #!/bin/bash
-FILE=/home/ubuntu/app/index.js
+FILE=/home/ubuntu/aws-codedeploy/index.js
 if test -f "$FILE"; then
    echo "$FILE exists"
    cd /home/ubuntu/
