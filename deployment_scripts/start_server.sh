@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /home/ubuntu/aws-codedeploy
-node index.js
+NODE_ENV=production pm2 start index.js -f
